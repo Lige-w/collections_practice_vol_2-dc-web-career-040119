@@ -37,6 +37,8 @@ def merge_data(keys, data)
   merged_array
 end
 
-def find_cool(hash)
-  binding.pry
+def find_cool(data)
+  data.each do |item|
+    binding.pry
+  end
 end
