@@ -37,5 +37,5 @@ def merge_data(keys, data)
   merged_array
 end
 
-def find_cool
+def find_cool(hash)
 end
