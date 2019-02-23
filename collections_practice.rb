@@ -38,9 +38,10 @@ def merge_data(keys, data)
 end
 
 def find_cool(data)
-  data.map do |item|
+  cool_array = []
+  data.each do |item|
     if item[:temperature] == "cool"
-      item
+      cool_array << item
     end
   end
 end
