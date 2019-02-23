@@ -46,3 +46,7 @@ def find_cool(data)
   end
   cool_array
 end
+
+def organize_schools(schools)
+  binding.pry
+end
