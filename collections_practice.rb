@@ -41,5 +41,6 @@ def find_cool(data)
   data.each do |item|
     if item[:temperature] == "cool"
       return item
+    end
   end
 end
