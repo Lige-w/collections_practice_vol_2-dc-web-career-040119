@@ -32,6 +32,7 @@ end
 def merge_data(keys, data)
   data[0].values.each_with_index do |item, index|
     keys[index].merge(item)
+    binding.pry
   end
   keys
 end
