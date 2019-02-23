@@ -39,6 +39,7 @@ end
 
 def find_cool(data)
   data.each do |item|
-    binding.pry
+    if item[:temperature] == "cool"
+      return item
   end
 end
