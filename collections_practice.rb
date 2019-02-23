@@ -48,5 +48,8 @@ def find_cool(data)
 end
 
 def organize_schools(schools)
-  binding.pry
+  organized_by_location = {}
+  schools.each do |school, data|
+    binding.pry
+  end
 end
