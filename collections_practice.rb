@@ -50,7 +50,6 @@ end
 def organize_schools(schools)
   organized_by_location = {}
   schools.each do |school, data|
-    binding.pry
     if organized_by_location.has_key?(data[:location])
       organized_by_location[data[:location]] << school
     else
