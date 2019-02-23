@@ -30,9 +30,9 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
+  merged_array = []
   data[0].values.each_with_index do |item, index|
-    keys[index].merge(item)
-    binding.pry
+    merged_array << keys[index].merge(item)
   end
   keys
 end
