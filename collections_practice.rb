@@ -44,4 +44,5 @@ def find_cool(data)
       cool_array << item
     end
   end
+  cool_array
 end
