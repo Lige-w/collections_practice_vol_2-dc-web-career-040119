@@ -56,4 +56,5 @@ def organize_schools(schools)
       organized_by_location[data[:location]] = [school]
     end
   end
+  organized_by_location
 end
